@@ -1,0 +1,23 @@
+:root {
+  --color-container-background: #e6e6e6a4;
+  --color-border-two-circles: #505050;
+  --color-border-top-two-circles: #ff0000;
+}
+
+.container-loader {
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 20;
+  background: var(--color-container-background);
+}
+
+.container-loader h1 {
+  margin-top: 1rem;
+}
+

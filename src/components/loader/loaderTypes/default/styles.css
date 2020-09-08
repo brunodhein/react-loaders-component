@@ -1,0 +1,32 @@
+.loader-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2.6rem solid var(--color-border-two-circles);
+  border-radius: 50%;
+  border-top: 2.6rem solid var(--color-border-top-two-circles);
+  width: 15rem;
+  height: 15rem;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.loader-inner-default {
+  border: 1rem solid #505050;
+  border-radius: 50%;
+  border-bottom: 1rem solid #ff0000;
+  width: 8rem;
+  height: 8rem;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
