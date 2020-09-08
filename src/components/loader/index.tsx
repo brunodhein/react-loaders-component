@@ -16,7 +16,7 @@ export const Loader: React.FC<LoaderProps> = ({title, id, type}) => {
         
     default:
       return(
-        <DefaultLoader title={title}/>
+        <DefaultLoader title={title} id={id}/>
       )
   }
 }
