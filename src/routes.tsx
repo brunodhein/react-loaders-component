@@ -1,12 +1,12 @@
 import React from 'react'
 import {BrowserRouter, Route} from 'react-router-dom'
 
-import {Loader} from './components/loader'
+import Landing from './pages/landing'
 
 function Routes() {
   return (
     <BrowserRouter>
-    <Route path='/' exact render={() =><Loader title='Loading'/>}/>
+    <Route path='/' component={Landing}/>
     </BrowserRouter>
    )
 }

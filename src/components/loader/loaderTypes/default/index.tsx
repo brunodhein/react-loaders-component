@@ -6,7 +6,7 @@ import './styles.css'
 
 const DefaultLoader: React.FC<LoaderProps> = ({id, title}) => {
   return (
-    <div id={id} className="container-loader" style={{display: "flex"}}>
+    <div id={id} className="container-loader" style={{display: "none"}}>
       <div className="loader-default">
         <div className="loader-inner-default">
         </div>

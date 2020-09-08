@@ -5,7 +5,7 @@ import './styles.css'
 import DefaultLoader from './loaderTypes/default'
 
 export interface LoaderProps {
-  title: string,
+  title?: string,
   id?: string,
   type?: string
 }
