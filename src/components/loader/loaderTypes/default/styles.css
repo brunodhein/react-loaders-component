@@ -12,9 +12,9 @@
 }
 
 .loader-inner-default {
-  border: 1rem solid #505050;
+  border: 1rem solid var(--color-border-two-circles);
   border-radius: 50%;
-  border-bottom: 1rem solid #ff0000;
+  border-bottom: 1rem solid var(--color-border-top-two-circles);
   width: 9rem;
   height: 9rem;
   -webkit-animation: spin 2s linear infinite;
