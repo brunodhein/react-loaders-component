@@ -1,5 +1,6 @@
 # React Loaders component by Bruno Dhein
 # :warning: This component uses typescript
+[want to contribute?](#how-i-can-contribute)
 ## The idea
 * Create an React component with an collection of cool loaders made with css animations
 
