@@ -20,20 +20,25 @@ npm install
 npm start
 ```
 
-You should see something like in this image:
-(image)
+You should see something like in this gif:
+![loader gif](https://github.com/brunodhein/react-loaders-component/blob/master/src/assets/loader-example.gif) 
 * The component has 3 functions: **Loader**, **ShowLoader** and **HideLoader**\
-(image)\
-and (for now) 3 properties: **id**, **title** and **type**
+![functions image](https://github.com/brunodhein/react-loaders-component/blob/master/src/assets/functions.png)
+and (for now) 3 properties: **id**, **title** and **type**\
+![props image](https://github.com/brunodhein/react-loaders-component/blob/master/src/assets/loaderprops.png)
 * The **id** is used with the Show and Hide functions when you want to show and hide
 an specific Loader (if you have more than one in an page).\
-(image)\
+![render image](https://github.com/brunodhein/react-loaders-component/blob/master/src/assets/loaderrender.png)
+putting the id to show or hide the loader by id is simple, just pass the id as an argument of the function:
+```javascript
+ShowLoader('idExample')
+HideLoader('idExample')
+```
 * The **title** is basically to show an message inside an h1 tag like in the first image.
 And finally the **type** property (for now there's only one type) that is what let us change how will look
 the loader\
-(image)
 * To change or add colors you musto go in the styles.css file in the root of the loader component, there's, in it begnning this:\
-(image)
+![colors vars image](https://github.com/brunodhein/react-loaders-component/blob/master/src/assets/colorvars.png)\
 and you can put new colors by just doing this: 
 ```css
 :root {
